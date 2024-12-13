@@ -4,16 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotfy - Music Player</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="banner">
       <div class="left-banner">
-        <img src="/images/left-banner-img.png" alt="left-banner-img">
-        <h1>Deep Focus</h1>
-        <p>Enjoy the Music seamlessly without any Disturbance</p>
+        <img
+          class="left-img"
+          src="/images/left-banner-img.png"
+          alt="left-banner-img"
+        />
+        <div class="heading">
+          <h1>Deep Focus</h1>
+          <p>Keep your focus and enjoy the serenity</p>
+        </div>
       </div>
     </div>
     <div class="main-section">
+      <div class="controls" onclick="playaudio()" id="play-pause">
+        <img
+          class="play-button"
+          src="images/play-button.svg"
+          alt="play-image"
+        />
+      </div>
+
+      <audio id="song"></audio>
+
       <table>
         <thead>
           <th class="song-number">#</th>
@@ -83,5 +100,6 @@
         </tr>
       </table>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
