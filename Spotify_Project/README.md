@@ -35,10 +35,7 @@ This project is a **Spotify Clone** built using **HTML**, **CSS**, and **JavaScr
 
 - **Play/Pause Functionality**: 
   - The play/pause button toggles between playing and pausing the audio track. When a track is played, the corresponding background image and song details are updated dynamically.
-  
-## Demo Link
 
-Provide a link to a live demo of the project if available, or state that it is available on GitHub for further exploration.
 
 ## Technologies Used
 
