@@ -1,12 +1,11 @@
 import React from 'react'
+import Login from './components/Auth/Login'
 
 const App = () => {
   return (
     <>
-    <div>App</div>
-    <h1 className="text-3xl font-bold underline text-white">
-      Hello world!
-    </h1>
+    <Login />
+    
     </>
   )
 }

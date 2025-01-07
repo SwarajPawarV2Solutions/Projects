@@ -50,3 +50,61 @@ Currently, two official plugins are available:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/yourprojectname.git
+
+
+
+# Step 3 # 
+
+## Login.jsx
+
+- Add react fragment (<></>)
+- Add Form and in form add 2 input tag and palceholder for Email and Password and aslo add submit button.
+- Add classname to all div and add css to it.
+- Now add const submitHandler function in login page which will print our submitted email snd password on console.
+- Now add 2 useStates one is for Email and SetEmailm and another is for Password and SetPassword.
+- Now write add onSubmit() function on form and pass submithandler() function in it.
+- Now set values in input as value={Email} in Email and value={password} in password.
+- Now add onChange() function on in input tag and in that onChange function add setEmail and SetPassword (e.target.value)
+- Add required in input tag of Email and password to make field are necessary and cannot be empty.
+
+
+# Step 3: Implementing the Login Component
+
+## Objective
+In this step, we will create a simple login form with two input fields: one for the **Email** and one for the **Password**. We will use React's `useState` hooks to manage form state, handle form submission, and ensure that the fields are required before submitting.
+
+### Instructions
+
+1. **Add React Fragment:**
+   - Wrap your entire JSX content inside a React fragment `<> </>`, so that no additional parent div is added to the DOM unnecessarily.
+
+2. **Create the Form:**
+   - Add a `form` element inside the JSX.
+   - Inside the form, add two `input` fields:
+     - One for **Email** (with a placeholder "Email").
+     - One for **Password** (with a placeholder "Password").
+   - Add a **Submit button**.
+
+3. **Add Class Names:**
+   - Add class names to all the `div` elements and form elements to easily target them for styling.
+
+4. **Create `submitHandler` Function:**
+   - Define a `submitHandler` function in the `Login.jsx` component that will print the submitted **Email** and **Password** to the console when the form is submitted.
+
+5. **Use React `useState`:**
+   - Add two `useState` hooks:
+     - One for the **Email** (`email` and `setEmail`).
+     - One for the **Password** (`password` and `setPassword`).
+
+6. **Handle `onSubmit` in the Form:**
+   - Add an `onSubmit` event handler to the form and pass the `submitHandler` function to it.
+
+7. **Set Values in the Input Fields:**
+   - Bind the `value` of each input field to the corresponding state (`email` for Email and `password` for Password).
+
+8. **Add `onChange` Event Handlers:**
+   - Add `onChange` event handlers to both input fields. In the `onChange` function, call `setEmail` and `setPassword` to update the respective states (`e.target.value`).
+
+9. **Mark Fields as Required:**
+   - Add the `required` attribute to both the **Email** and **Password** input fields to make sure the fields are not empty when submitting the form.
+
