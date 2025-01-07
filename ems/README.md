@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 - https://tailwindcss.com/docs/guides/vitehttps://tailwindcss.com/docs/guides/vite
 
 
-# Step 2 # 
+# Step 2 : Explanation of Folders and Files # 
  - Make folders named as  Components, context ,Pages, utils folder in src folder.
  - In components folder Add 3 folder named as Auth, Dashboard, TaskList.
  - In Auth folder add file login.jsx.
@@ -21,8 +21,6 @@ Currently, two official plugins are available:
  - In Context folder add files named AuthContext.jsx and TaskContext.jsx
  - In utils folder add file named as localStorage.jsx.
 
-
-### Explanation of Folders and Files
 
 - **components/**: Contains all the UI components of the application.
   - **Auth/**: Includes authentication-related components.
