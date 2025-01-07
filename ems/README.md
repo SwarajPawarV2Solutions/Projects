@@ -21,3 +21,32 @@ Currently, two official plugins are available:
  - In Context folder add files named AuthContext.jsx and TaskContext.jsx
  - In utils folder add file named as localStorage.jsx.
 
+
+## Explanation of Folders and Files
+
+- **components/**: Contains all the UI components of the application.
+  - **Auth/**: Includes authentication-related components.
+    - `login.jsx`: Login component where users authenticate.
+  - **Dashboard/**: Contains components related to the different user dashboards.
+    - `AdminDashboard.jsx`: Admin-specific dashboard component.
+    - `EmployeeDashboard.jsx`: Employee-specific dashboard component.
+  - **TaskList/**: Contains components related to managing tasks.
+    - `AcceptTask.jsx`: Component to accept a task.
+    - `CompleteTask.jsx`: Component to mark a task as completed.
+    - `FailedTask.jsx`: Component to mark a task as failed.
+    - `NewTask.jsx`: Component to create a new task.
+
+- **context/**: Contains context providers for the global state of the application.
+  - `AuthContext.jsx`: Context provider for authentication state.
+  - `TaskContext.jsx`: Context provider for task management state.
+
+- **pages/**: Contains page-level components. (Add relevant page components here as needed.)
+
+- **utils/**: Contains utility functions or helpers.
+  - `localStorage.jsx`: Utility for managing local storage operations.
+
+## How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/yourprojectname.git
