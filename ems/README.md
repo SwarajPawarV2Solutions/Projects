@@ -54,7 +54,6 @@ Currently, two official plugins are available:
 
 
 # Step 3 # 
-
 ## Login.jsx
 
 - Add react fragment (<></>)
