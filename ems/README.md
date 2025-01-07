@@ -53,20 +53,6 @@ Currently, two official plugins are available:
 
 
 
-# Step 3 # 
-## Login.jsx
-
-- Add react fragment (<></>)
-- Add Form and in form add 2 input tag and palceholder for Email and Password and aslo add submit button.
-- Add classname to all div and add css to it.
-- Now add const submitHandler function in login page which will print our submitted email snd password on console.
-- Now add 2 useStates one is for Email and SetEmailm and another is for Password and SetPassword.
-- Now write add onSubmit() function on form and pass submithandler() function in it.
-- Now set values in input as value={Email} in Email and value={password} in password.
-- Now add onChange() function on in input tag and in that onChange function add setEmail and SetPassword (e.target.value)
-- Add required in input tag of Email and password to make field are necessary and cannot be empty.
-
-
 # Step 3: Implementing the Login Component
 
 ## Objective
