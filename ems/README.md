@@ -7,12 +7,12 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-# Step 1 : Installing talwind css for react vite from below link #
+# Step 1 : Installing talwind css for react vite from below link
 
 - https://tailwindcss.com/docs/guides/vitehttps://tailwindcss.com/docs/guides/vite
 
 
-# Step 2 : Explanation of Folders and Files # 
+# Step 2 : Explanation of Folders and Files
  - Make folders named as  Components, context ,Pages, utils folder in src folder.
  - In components folder Add 3 folder named as Auth, Dashboard, TaskList.
  - In Auth folder add file login.jsx.
@@ -90,4 +90,22 @@ In this step, we will create a simple login form with two input fields: one for 
 
 9. **Mark Fields as Required:**
    - Add the `required` attribute to both the **Email** and **Password** input fields to make sure the fields are not empty when submitting the form.
+
+
+
+# Step 4 : Employee And Admin Dashboards
+
+### Add folder named as other in components.And in that other folder add file named as Headers.jsx
+
+- In Header file add headers as name with emoji and also add login button
+- Now creatre another file named as TaskListNumber.jsx and in that file we will add some number and tasks in it and adjust it by using css in a box with different colours.
+
+### TaskList
+
+- Add TaskList.jsx file in TaskList folder and in that file we will list of block which has task included in it.
+
+## EmployeeDashboard
+
+- Import and Add Header , TaslListNumbers and TaskList in Employee Dashboad.
+
 

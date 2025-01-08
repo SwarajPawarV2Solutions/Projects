@@ -17,3 +17,8 @@ body{
   background-color: #111;
   color: #ffff;
 }
+
+/* This will remove scrollbar from page */
+#tasklist::-webkit-scrollbar{   
+   display:none;
+}
