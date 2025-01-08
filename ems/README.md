@@ -117,3 +117,28 @@ In this step, we will create a simple login form with two input fields: one for 
 - In AllTask component add a div in which task assigned to , task name and status of task is present. make multiple div.
 - Now import and add Header , CreateTask and AllTask in EmployeDashboard.
 
+
+
+# Step 5 : Context Folder
+
+## AuthContext
+
+- Make react arrow function export component(rafce) in this file.
+- Now go to main.jsx and wrap <App /> in AuthContext.As given below
+   <AuthContext>
+    <App />
+   </AuthContext> 
+- Now pass children in AuthContext.jsx in div and also in function
+- Now App is wrapped in AuthContext   
+
+## TextContext
+
+- Make react arrow function export component(rafce) in this file.
+- Now go to main.jsx and wrap <App /> in TaskContext.As given below
+  <AuthContext>
+   <TaskContext>
+    <App />
+   </TaskContext> 
+   </AuthContext>
+- Now pass children in TaskContext.jsx in div and also in function  
+- now App is Wrapped in TaskContext 
