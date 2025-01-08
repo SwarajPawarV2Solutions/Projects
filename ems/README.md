@@ -97,7 +97,7 @@ In this step, we will create a simple login form with two input fields: one for 
 
 ### Add folder named as other in components.And in that other folder add file named as Headers.jsx
 
-- In Header file add headers as name with emoji and also add login button
+- In Header file add headers as name with emoji and also add log Out button.
 - Now creatre another file named as TaskListNumber.jsx and in that file we will add some number and tasks in it and adjust it by using css in a box with different colours.
 
 ### TaskList
