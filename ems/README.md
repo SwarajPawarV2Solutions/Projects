@@ -108,4 +108,12 @@ In this step, we will create a simple login form with two input fields: one for 
 
 - Import and Add Header , TaslListNumbers and TaskList in Employee Dashboad.
 
+## AdminDashboard
+
+### Add two files in Others folder i.e Create Task and AllTask.
+
+- In createTask component, add form in which there are columns to fill task details as required to asign it to employee and add a button named as Create Task.
+
+- In AllTask component add a div in which task assigned to , task name and status of task is present. make multiple div.
+- Now import and add Header , CreateTask and AllTask in EmployeDashboard.
 
