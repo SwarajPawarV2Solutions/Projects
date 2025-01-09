@@ -128,8 +128,8 @@ In this step, we will create a simple login form with two input fields: one for 
    <AuthContext>
     <App />
    </AuthContext> 
-- Now pass children in AuthContext.jsx in div and also in function
-- Now App is wrapped in AuthContext   
+- Now pass children in AuthContext.jsx in div and also in function. If the childern is not passed then we can see output which we had passed in App.jsx.
+- Now App is wrapped in AuthContext.   
 
 ## TextContext
 
@@ -140,5 +140,25 @@ In this step, we will create a simple login form with two input fields: one for 
     <App />
    </TaskContext> 
    </AuthContext>
-- Now pass children in TaskContext.jsx in div and also in function  
-- now App is Wrapped in TaskContext 
+- Now pass children in TaskContext.jsx in div and also in function. If the childern is not passed then we can see output which we had passed in App.jsx.  
+- now App is Wrapped in TaskContext.
+
+
+
+# Step 5: Context Folder
+
+## AuthContext
+
+- Create a React arrow function component (using `rafce`) in this file.
+- Go to `main.jsx` and wrap the `<App />` component in `AuthContext` as shown below:
+  ```jsx
+  <AuthContext>
+    <App />
+  </AuthContext>
+
+
+
+
+# Step 6 : utils  ---->  localStorage.jsx
+
+## we use context api to share data everywhere through local storage

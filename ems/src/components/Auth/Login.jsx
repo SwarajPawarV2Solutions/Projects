@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
-const Login = () => {
+const Login = ({handleLogin}) => {
 
     //UseState is like like react variable
+   
 
  const [email, setEmail] = useState('')
  const [password, setpassword] = useState('')
@@ -10,6 +11,7 @@ const Login = () => {
  // Two way Binding
  const submitHandler =(e)=>{
 e.preventDefault()
+handleLogin(email,password)
  console.log("Email is",email);
  console.log("Password is",password);
 
