@@ -129,6 +129,7 @@ In this step, we will create a simple login form with two input fields: one for 
   <AuthContext>
     <App />
   </AuthContext>
+  ```
 - Now pass children in AuthContext.jsx in div and also in function. If the childern is not passed then we can see output which we had passed in App.jsx.
 - Now App is wrapped in AuthContext.   
 
@@ -141,7 +142,8 @@ In this step, we will create a simple login form with two input fields: one for 
    <TaskContext>
     <App />
    </TaskContext> 
-   </AuthContext>
+   </AuthContext> 
+   ```
 - Now pass children in TaskContext.jsx in div and also in function. If the childern is not passed then we can see output which we had passed in App.jsx.  
 - now App is Wrapped in TaskContext.
 
