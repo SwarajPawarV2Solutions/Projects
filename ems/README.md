@@ -125,9 +125,10 @@ In this step, we will create a simple login form with two input fields: one for 
 
 - Make react arrow function export component(rafce) in this file.
 - Now go to main.jsx and wrap <App /> in AuthContext.As given below
-   <AuthContext>
+ ```jsx
+  <AuthContext>
     <App />
-   </AuthContext> 
+  </AuthContext>
 - Now pass children in AuthContext.jsx in div and also in function. If the childern is not passed then we can see output which we had passed in App.jsx.
 - Now App is wrapped in AuthContext.   
 
@@ -135,6 +136,7 @@ In this step, we will create a simple login form with two input fields: one for 
 
 - Make react arrow function export component(rafce) in this file.
 - Now go to main.jsx and wrap <App /> in TaskContext.As given below
+  ```jsx
   <AuthContext>
    <TaskContext>
     <App />
@@ -142,20 +144,6 @@ In this step, we will create a simple login form with two input fields: one for 
    </AuthContext>
 - Now pass children in TaskContext.jsx in div and also in function. If the childern is not passed then we can see output which we had passed in App.jsx.  
 - now App is Wrapped in TaskContext.
-
-
-
-# Step 5: Context Folder
-
-## AuthContext
-
-- Create a React arrow function component (using `rafce`) in this file.
-- Go to `main.jsx` and wrap the `<App />` component in `AuthContext` as shown below:
-  ```jsx
-  <AuthContext>
-    <App />
-  </AuthContext>
-
 
 
 
