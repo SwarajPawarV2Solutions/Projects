@@ -152,3 +152,22 @@ In this step, we will create a simple login form with two input fields: one for 
 # Step 6 : utils  ---->  localStorage.jsx
 
 ## we use context api to share data everywhere through local storage
+
+- add json data data for admin and employee in this file.
+- add functions for getLocalStorage() and setLocalStorage()
+
+```jsx
+
+export const setLocalStorage = ()=> {
+  localStorage.setItem('employees',JSON.stringify(employees))
+  localStorage.setItem('admin',JSON.stringify(admin))
+}
+
+export const getLocalStorage = ()=> {
+ const employees = JSON.parse(localStorage.getItem('employees'))
+ const admin = JSON.parse(localStorage.getItem('admin'))
+ 
+ console.log(employees,admin);
+ 
+}
+```
